@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="nav-bars">
+      <view class="btn-group active">衣服</view>
+      <view class="btn-group">裤子</view>
+      <view class="btn-group"></view>
+  </view>
+</view>

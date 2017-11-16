@@ -1,0 +1,31 @@
+/**index.wxss**/
+
+.nav-bars {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #f9f9f9;
+}
+
+.nav-bars .btn-group {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  height: 104rpx;
+  padding: 12rpx 0;
+  align-items: center;
+  line-height: 104rpx;
+  color: #676767;
+  border-top: solid 4rpx #f4f4f4;
+  border-right: solid 1rpx #f2f2f2;
+}
+
+.nav-bars .btn-group.active {
+  border-top-color: #4dc63c;
+  font-weight: 600;
+}
